@@ -36,7 +36,8 @@
     "jsonwebtoken": "^8.2.0",
     "merge-graphql-schemas": "^1.5.1",
     "mysql2": "^1.5.3",
-    "sequelize": "^4.37.3"
+    "sequelize": "^4.37.3",
+    "win-node-env": "^0.1.0"
   },
   "devDependencies": {
     "dotenv": "^5.0.1",
