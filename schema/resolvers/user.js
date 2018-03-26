@@ -14,9 +14,7 @@ module.exports = {
         signup: async (obj, args, context, info) => {
             try {
                 const result = await model.User.create(args.input);
-                if (result) {
-                    return 'Success'
-                }
+                console.log(result);
             } catch (error) {
                 throw new Error(error);
             }
